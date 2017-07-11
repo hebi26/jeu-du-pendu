@@ -1,4 +1,5 @@
-## jeu du pendu à faire soit en full JS/jquery ou full PHP ou bien  un mix JS/PHP
+## jeu du pendu 
+* À faire soit en full JS/jquery ou full PHP ou bien  un mix JS/PHP
 
 ### Les règles
 
