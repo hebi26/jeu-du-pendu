@@ -19,8 +19,8 @@ margin-top: 50px;
 .box p{
 margin: 0;
 visibility: hidden;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 .result{
   display: flex;
@@ -47,12 +47,12 @@ padding-bottom: 10px;
 .ban{
   background-image: url("img/jeu_pendu.png");
   background-position: center;
+  background-color: white;
   height: 200px;
   width: 835px;
   overflow: hidden;
   margin: auto;
   background-repeat: no-repeat;
-  background-color: whitae;
   text-align: center;
 
 }
