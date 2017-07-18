@@ -1,1 +1,109 @@
+body {
+  background-color: #303030;
+}
+.container{
+margin-top: 50px;
+}
+.box{
+  margin-top: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+}
 
+.box p{
+margin: 0;
+visibility: hidden;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.result{
+  display: flex;
+  padding: 10px;
+  margin-top: 50px;
+}
+.image{
+  border-top: 5px solid #BB4C3A;
+  width: 75px;
+  overflow: hidden;
+}
+.display{
+  font-size: 20px;
+  margin-left: 30px;
+  width: 605px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("img/pow-star.png");
+  background-size: contain;
+  text-align: center;
+  box-shadow: 5px 5px 5px black;
+}
+.ban{
+  background-image: url("img/jeu_pendu.png");
+  background-position: center;
+  height: 200px;
+  width: 835px;
+  overflow: hidden;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-color: whitae;
+  text-align: center;
+
+}
+#lettre{
+  width: 120px;
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+}
+#submit{
+  background-color: green;
+  width: 50px;
+  height: auto;
+  border-style: none;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  border:1px solid white;
+  box-shadow: 5px 5px 5px black;
+}
+
+#submit:hover{
+box-shadow: 5px 5px 5px green;
+}
+.main{
+  background-image: url("img/hip-square.png");
+  width: 735px;
+  padding: 50px;
+  margin: auto;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+label{
+  font-size: 20px;
+}
+#btn{
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow:  5px 5px 5px black;
+  font-weight: bold;
+  font-size: 20px;
+}
+#btn:hover{
+  box-shadow: 5px 5px 5px darkred;
+}
